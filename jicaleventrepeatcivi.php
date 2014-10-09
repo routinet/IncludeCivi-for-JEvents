@@ -1,13 +1,15 @@
 <?php
-
 /**
- * JEvents Component for Joomla 3.x
+ * @package Plugin IncludeCivi for JEvents for Joomla! 3
+ * @version 1.0.0
+ * @author Steve Binkowski
+ * @copyright (C) 2014 Steve Binkowski
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  *
- * @author      Steve Binkowski
- * @link        https://github.com/routinet
- *
- * Requires CiviCRM (https://civicrm.org) and plugin IncludeCivi (https::/github.com/routinet/IncludeCivi)
- */
+ * Requires Joomla extensions CiviCRM (http://civicrm.org) and
+ * JEvents (http://www.jevents.net/) to be installed separately.
+**/
+
 defined('_JEXEC') or die('Restricted access');
 
 class jIcalEventRepeatCivi extends jIcalEventRepeat
